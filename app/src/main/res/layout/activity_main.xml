@@ -101,4 +101,12 @@
         tools:layout_editor_absoluteX="259dp"
         tools:layout_editor_absoluteY="629dp" />
 
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOLTERO"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="635dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
