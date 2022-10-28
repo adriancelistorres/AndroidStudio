@@ -56,15 +56,49 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="guardar"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="467dp" />
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="462dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="listar"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="458dp" />
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="629dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
