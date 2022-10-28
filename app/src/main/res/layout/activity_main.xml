@@ -109,4 +109,12 @@
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="635dp" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="180dp"
+        android:layout_height="163dp"
+        app:srcCompat="@mipmap/prueba"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="16dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
